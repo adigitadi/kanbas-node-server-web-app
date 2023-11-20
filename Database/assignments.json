@@ -1,0 +1,11 @@
+[
+  { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z"},
+  { "_id": "A102", "title": "Combustion Analysis", "course": "RS101", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" },
+  { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" },
+  { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" },
+  { "_id": "A202", "title": "Flow Analysis", "course": "RS102", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" },
+  { "_id": "A203", "title": "Heating Analysis", "course": "RS102", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" },
+  { "_id": "A301", "title": "Structural Design Task", "course": "RS103", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" },
+  { "_id": "A302", "title": "Orbital Calculations", "course": "RS103", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" },
+  { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103", "description": "Multiple Modules", "points": "100", "dueDate": "2023-12-31T23:59:59Z", "availableFrom": "2023-11-31T23:59:59Z", "availableUntil": "2024-01-01T23:59:59Z" }
+]
