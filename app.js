@@ -12,21 +12,12 @@ import "dotenv/config";
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:3000', 'https://a6--stirring-bombolone-0215ed.netlify.app'];
-
-app.use(cors({
-  origin: function(origin, callback){
-    // allow requests with no origin (like mobile apps or curl requests)
-    if(!origin) return callback(null, true);
-    if(allowedOrigins.indexOf(origin) === -1){
-      var msg = 'The CORS policy for this site does not allow access from the specified Origin.';
-      return callback(new Error(msg), false);
-    }
-    return callback(null, true);
-  },
-  credentials: true,
-}));
-
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.FRONTEND_URL,
+  })
+);
 const sessionOptions = {
   secret: 'any string',
   resave: false,
@@ -44,8 +35,7 @@ app.use(session(sessionOptions));
 
 app.use(express.json());
 
-const CONNECTION_STRING =
-  process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas'
 mongoose.connect(CONNECTION_STRING);
 UserRoutes(app);
 
