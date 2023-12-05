@@ -128,5 +128,15 @@
     "email": "barry@theflash.com",
     "dob": "1989-03-19",
     "role": "STUDENT"
+  },
+{
+    "_id": "134",
+    "username": "adi",
+    "password": "adi",
+    "firstName": "adi",
+    "lastName": "adi",
+    "email": "adi@adi.com",
+    "dob": "1997-16-11",
+    "role": "ADMIN"
   }
 ]
